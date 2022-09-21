@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- css link -->
+<?xml-stylesheet type="text/css" href="catalog_20049082.css"?>
+<!-- schema link -->
+<!-- <GaloreGifts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_20049082.xsd"> -->
+<GaloreGifts slogan="Gifts for all" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="catalog_20049082.xsd">
+
+
+    <Home>
+        <!-- <Box class="box">
+
+        </Box> -->
+        <Nav>
+
+            <Galore_Logo />
+            <Nav_Menu>
+                <Shop>Shop</Shop>
+                <Pricing>Pricing</Pricing>
+                <Blog>Blog</Blog>
+                <Contact>Contact</Contact>
+            </Nav_Menu>
+            <ShopBtn>
+                Shop now
+            </ShopBtn>
+
+
+        </Nav>
+        <Body>
+            <Description>
+                <Title>Galore Gifts</Title>
+                <Sub_Title>GIFTS FOR ALL</Sub_Title>
+                <Info>
+                      
+                        We sell and deliver digital &amp; physical gift cards to your doorstep. Make sure to remember us.                  
+                </Info>
+
+                <CallToActionBtn>
+                    Get your giftcard
+                </CallToActionBtn>
+
+
+            </Description>
+
+            <Photo />
+
+
+        </Body>
+
+    </Home>
+
+    <GiftCards>
+        <GiftCards_G1>
+            <GiftCard id='a1'>
+
+
+                <Logo />
+
+
+                <GiftCard_Details type='Digital'>
+                    <Product_Name> Amazon Gift Card</Product_Name>
+                    <Company sector="Ecommerce">
+                        <label>Company:</label>
+                        <Company_Name>
+                            Amazon
+                        </Company_Name>
+                    </Company>
+                    <Type reload="Non-Reloadable">
+                        <label>Type:</label>
+                        <Type_Name>
+                            Digital
+                        </Type_Name>
+                    </Type>
+                    <Validity country="USA">
+                        <label>Validity: </label>
+                        <Validity_Date>
+                            2022-10-10
+                        </Validity_Date>
+                    </Validity>
+                    <Cost currency="USD">
+                        <label>Cost:$</label>
+                        <Total>
+                            45
+                        </Total>
+                    </Cost>
+                    <Card>
+                        <label>Card Number:</label>
+                        <Card_Number>
+                            10
+                        </Card_Number>
+                    </Card>
+                    <Number_Of_Users>
+                        <label>Number of users:</label>
+                        <Users>
+                            200000
+                        </Users>
+                    </Number_Of_Users>
+                    <Discount_Group>
+                        <label>Discount:$</label>
+                        <Discount>5.00 </Discount>
+                    </Discount_Group>
+                    <Personalized_Group>
+                        <label>Personalization:</label>
+                        <Personalized>Can be personalized</Personalized>
+                    </Personalized_Group>
+                    <Redeem_Group>
+                        <label>Redeemable:</label>
+                        <Redeem>Online</Redeem>
+                    </Redeem_Group>
+                    <Guide>
+                        <label>Guide:</label>
+                        <Guideline>
+                            Use the code sent to your phone to purchase something.
+                        </Guideline>
+
+                    </Guide>
+                    <Terms_Condition>
+                        For additional terms &amp; privacy policy visit www.amazon.com/giftcards
+                    </Terms_Condition>
+                </GiftCard_Details>
+
+            </GiftCard>
+
+            <GiftCard id='s1'>
+
+
+                <Logo />
+
+                <GiftCard_Details type='Digital'>
+                    <Product_Name> Steam Gift Card</Product_Name>
+                    <Company sector="Video Game">
+                        <label>Company:</label>
+                        <Company_Name>
+                            Valve Corporation
+                        </Company_Name>
+                    </Company>
+                    <Type reload="Reloadable">
+                        <label>Type:</label>
+                        <Type_Name>
+                            Digital
+                        </Type_Name>
+                    </Type>
+                    <Validity country="USA">
+                        <label>Validity: </label>
+                        <Validity_Date>
+                            2022-11-10
+                        </Validity_Date>
+                    </Validity>
+                    <Cost currency="USD">
+                        <label>Cost:$</label>
+                        <Total>
+                            35
+                        </Total>
+                    </Cost>
+                    <Card>
+                        <label>Card Number:</label>
+                        <Card_Number>
+                            12
+                        </Card_Number>
+                    </Card>
+                    <Number_Of_Users>
+                        <label>Number of users:</label>
+                        <Users>
+                            10000
+                        </Users>
+                    </Number_Of_Users>
+                    <Discount_Group>
+                        <label>Discount:$</label>
+                        <Discount>1.00</Discount>
+                    </Discount_Group>
+                    <Redeem_Group>
+                        <label>Redeemable:</label>
+                        <Redeem>Online</Redeem>
+                    </Redeem_Group>
+                    <Guide>
+                        <label>Guide:</label>
+                        <Guideline>
+                            Use the code sent to your phone to purchase something.
+                        </Guideline>
+
+                    </Guide>
+                    <Terms_Condition>
+                        For additional terms &amp; privacy policy visit www.steam.com/giftcards
+                    </Terms_Condition>
+                </GiftCard_Details>
+
+
+            </GiftCard>
+            <GiftCard id='x1'>
+
+
+                <Logo />
+
+
+                <GiftCard_Details type='Digital'>
+                    <Product_Name> XBOX Gift Card</Product_Name>
+                    <Company sector="Technology">
+                        <label>Company:</label>
+                        <Company_Name>
+                            Microsoft
+                        </Company_Name>
+                    </Company>
+                    <Type reload="Reloadable">
+                        <label>Type:</label>
+                        <Type_Name>
+                            Digital
+                        </Type_Name>
+                    </Type>
+                    <Validity country="USA">
+                        <label>Validity: </label>
+                        <Validity_Date>
+                            2022-10-10
+                        </Validity_Date>
+                    </Validity>
+                    <Cost currency="GBP">
+                        <label>Cost:£</label>
+                        <Total>
+                            25
+                        </Total>
+                    </Cost>
+                    <Card>
+                        <label>Card Number:</label>
+                        <Card_Number>
+                            13
+                        </Card_Number>
+                    </Card>
+                    <Number_Of_Users>
+                        <label>Number of users:</label>
+                        <Users>
+                            7000
+                        </Users>
+                    </Number_Of_Users>
+                    <Redeem_Group>
+                        <label>Redeemable:</label>
+                        <Redeem>Online</Redeem>
+                    </Redeem_Group>
+                    <Guide>
+                        <label>Guide:</label>
+                        <Guideline>
+                            Use the code sent to your phone to purchase something.
+                        </Guideline>
+
+                    </Guide>
+                    <Terms_Condition>
+                        For additional terms &amp; privacy policy visit  www.xbox.com/giftcards
+                    </Terms_Condition>
+                </GiftCard_Details>
+
+
+            </GiftCard>
+
+
+        </GiftCards_G1>
+
+
+        <GiftCards_G2>
+            <GiftCard id='play1'>
+
+
+                <Logo />
+
+                <GiftCard_Details type='Digital'>
+                    <Product_Name> Playstore Gift Card</Product_Name>
+                    <Company sector="Technology">
+                        <label>Company:</label>
+                        <Company_Name>
+                            Google
+                        </Company_Name>
+                    </Company>
+                    <Type reload="Non-Reloadable">
+                        <label>Type:</label>
+                        <Type_Name>
+                            Digital
+                        </Type_Name>
+                    </Type>
+                    <Validity country="USA">
+                        <label>Validity: </label>
+                        <Validity_Date>
+                            2023-01-10
+                        </Validity_Date>
+                    </Validity>
+                    <Cost currency="USD">
+                        <label>Cost:$</label>
+                        <Total>
+                            35
+                        </Total>
+                    </Cost>
+                    <Card>
+                        <label>Card Number:</label>
+                        <Card_Number>
+                            20
+                        </Card_Number>
+                    </Card>
+                    <Number_Of_Users>
+                        <label>Number of users:</label>
+                        <Users>
+                            200000
+                        </Users>
+                    </Number_Of_Users>
+                    <Cashback_Group>
+                        <label>
+                            Cash Back:
+                        </label>
+                        <CashBack>Available</CashBack>
+                    </Cashback_Group>
+                    <Redeem_Group>
+                        <label>Redeemable:</label>
+                        <Redeem>Online</Redeem>
+                    </Redeem_Group>
+                    <Guide>
+                        <label>Guide:</label>
+                        <Guideline>
+                            Use the code sent to your phone to purchase something.
+                        </Guideline>
+
+                    </Guide>
+                    <Terms_Condition>
+                        For additional terms &amp; privacy policy visit  www.playstore.com/giftcards
+                    </Terms_Condition>
+                </GiftCard_Details>
+
+            </GiftCard>
+
+            <GiftCard id='ps1'>
+
+
+                <Logo />
+
+                <GiftCard_Details type='Physical'>
+                    <Product_Name> Playstation Gift Card</Product_Name>
+                    <Company sector="Technology">
+                        <label>Company:</label>
+                        <Company_Name>
+                            Sony Entertainment
+                        </Company_Name>
+                    </Company>
+                    <Type reload="Non-Reloadable">
+                        <label>Type:</label>
+                        <Type_Name>
+                            Physical
+                        </Type_Name>
+                    </Type>
+                    <Validity country="USA">
+                        <label>Validity: </label>
+                        <Validity_Date>
+                            2022-10-10
+                        </Validity_Date>
+                    </Validity>
+                    <Cost currency="USD">
+                        <label>Cost:$</label>
+                        <Total>
+                            65
+                        </Total>
+                    </Cost>
+                    <Card>
+                        <label>Card Number:</label>
+                        <Card_Number>
+                            45
+                        </Card_Number>
+                    </Card>
+                    <Number_Of_Users>
+                        <label>Number of users:</label>
+                        <Users>
+                            9000
+                        </Users>
+                    </Number_Of_Users>
+                    <Discount_Group>
+                        <label>Discount:$</label>
+                        <Discount>3.00</Discount>
+                    </Discount_Group>
+                    <Redeem_Group>
+                        <label>Redeemable:</label>
+                        <Redeem>In-Store</Redeem>
+                    </Redeem_Group>
+                    <Delivery_Group>
+                        <label>
+                            Delivery:
+                        </label>
+                        <Delivery>Not Available</Delivery>
+                    </Delivery_Group>
+                    <Return_Group>
+                        <label>Return:</label>
+                        <Return>Within 7 days</Return>
+                    </Return_Group>
+                    <Guide>
+                        <label>Guide:</label>
+                        <Guideline>
+                            Scratch the label off the card and use the code.
+                        </Guideline>
+
+                    </Guide>
+                    <Terms_Condition>
+                        For additional terms &amp; privacy policy visit  www.playstation.com/giftcards
+                    </Terms_Condition>
+                </GiftCard_Details>
+
+            </GiftCard>
+
+            <GiftCard id='i1'>
+
+
+                <Logo />
+
+                <GiftCard_Details type='Physical'>
+                    <Product_Name> Itunes Gift Card</Product_Name>
+                    <Company sector="Technology">
+                        <label>Company:</label>
+                        <Company_Name>
+                            Apple
+                        </Company_Name>
+                    </Company>
+                    <Type reload="Non-Reloadable">
+                        <label>Type:</label>
+                        <Type_Name>
+                            Physical
+                        </Type_Name>
+                    </Type>
+                    <Validity country="USA">
+                        <label>Validity: </label>
+                        <Validity_Date>
+                            2022-10-10
+                        </Validity_Date>
+                    </Validity>
+                    <Cost currency="USD">
+                        <label>Cost:$</label>
+                        <Total>
+                            35
+                        </Total>
+                    </Cost>
+                    <Card>
+                        <label>Card Number:</label>
+                        <Card_Number>
+                            100
+                        </Card_Number>
+                    </Card>
+                    <Number_Of_Users>
+                        <label>Number of users:</label>
+                        <Users>
+                            200000
+                        </Users>
+                    </Number_Of_Users>
+                    <Discount_Group>
+                        <label>Discount:$</label>
+                        <Discount>5.00</Discount>
+                    </Discount_Group>
+                    <Redeem_Group>
+                        <label>Redeemable:</label>
+                        <Redeem>In-Store</Redeem>
+                    </Redeem_Group>
+                    <Delivery_Group>
+                        <label>
+                            Delivery:
+                        </label>
+                        <Delivery>Available</Delivery>
+                    </Delivery_Group>
+                    <Return_Group>
+                        <label>Return:</label>
+                        <Return>Not Available</Return>
+                    </Return_Group>
+                    <Guide>
+                        <label>Guide:</label>
+                        <Guideline>
+                            Scratch the label off the card and use the code.
+                        </Guideline>
+
+                    </Guide>
+                    <Terms_Condition>
+                        For additional terms &amp; privacy policy visit www.itunes.com/giftcards
+                    </Terms_Condition>
+                </GiftCard_Details>
+
+            </GiftCard>
+
+        </GiftCards_G2>
+
+
+    </GiftCards>
+
+
+    <Store founder="Jack Donalds" founded="2021-09-24">
+
+        <Store_Details>
+            <Store_Logo />
+
+            <Name>Galore Gifts: Gifts for all</Name>
+
+
+            <Phone_Group>
+                <Phone_Logo />
+                <Phone_Number phoneType="Landline">99880900</Phone_Number>
+
+            </Phone_Group>
+
+            <Email_Group>
+                <Email_Logo />
+                <Email>galoregifts@gmail.com</Email>
+            </Email_Group>
+            <Address_Group>
+                <Address_Logo />
+                <Address street="Oxford Street">UK,London</Address>
+
+            </Address_Group>
+
+            <Website_Group>
+                <Website_Logo />
+                <Website>galoregifts.com</Website>
+
+            </Website_Group>
+
+
+        </Store_Details>
+
+        <AboutImg />
+
+
+    </Store>
+
+
+</GaloreGifts>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- schema declaration -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+    <xs:element name="Contact" type="xs:string" />
+    <xs:element name="Blog" type="xs:string" />
+    <xs:element name="Pricing" type="xs:string" />
+    <xs:element name="Shop" type="xs:string" />
+
+
+    <xs:element name="ShopBtn" type="xs:string" />
+    <xs:element name="Nav_Menu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Shop" />
+                <xs:element ref="Pricing" />
+                <xs:element ref="Blog" />
+                <xs:element ref="Contact" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Galore_Logo" type="xs:string" />
+
+    <xs:element name="Nav">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Galore_Logo" />
+                <xs:element ref="Nav_Menu" />
+                <xs:element ref="ShopBtn" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="CallToActionBtn" type="xs:string" />
+    <xs:element name="Info" type="xs:string" />
+
+    <xs:element name="Sub_Title" type="xs:string" />
+    <xs:element name="Title" type="xs:string" />
+
+    <xs:element name="Description">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Title" />
+                <xs:element ref="Sub_Title" />
+                <xs:element ref="Info" />
+                <xs:element ref="CallToActionBtn" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="Photo" type="xs:string" />
+
+
+    <xs:element name="Body">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Description" />
+                <xs:element ref="Photo" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="Home">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Nav" />
+                <xs:element ref="Body" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="label" type="xs:string" />
+
+
+    <xs:element name="Terms_Condition" type="xs:string" />
+
+
+    <xs:element name="Guideline" type="xs:string" />
+
+    <xs:element name="Guide">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label" />
+                <xs:element ref="Guideline" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Return">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Within 7 days" />
+                <xs:enumeration value="Not Available" />
+            </xs:restriction>
+        </xs:simpleType>
+
+    </xs:element>
+
+    <xs:element name="Return_Group">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label"/>
+                <xs:element ref="Return"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Delivery">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Available" />
+                <xs:enumeration value="Not Available" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Delivery_Group">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label"/>
+                <xs:element ref="Delivery"/>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+
+    <xs:element name="Personalized">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Can be personalized" />
+                <xs:enumeration value="Cannot be personalized" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    <xs:element name="Personalized_Group">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label"/>
+                <xs:element ref="Personalized"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="CashBack">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Available" />
+                <xs:enumeration value="Not Available" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Cashback_Group">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label"/>
+                <xs:element ref="CashBack"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Discount" type="xs:float" />
+
+    <xs:element name="Discount_Group">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label" />
+                <xs:element ref="Discount" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Redeem">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Online" />
+                <xs:enumeration value="In-Store" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Redeem_Group">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label" />
+                <xs:element ref="Redeem" />
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+
+    <xs:element name="Users" type="xs:int" />
+
+    <xs:element name="Number_Of_Users">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label" />
+                <xs:element ref="Users" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="Card_Number" type="xs:int"/>
+
+    <xs:element name="Card">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label" />
+                <xs:element ref="Card_Number"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:attribute name="currency" default="USD">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="USD" />
+                <xs:enumeration value="AUD" />
+                <xs:enumeration value="GBP" />
+                <xs:enumeration value="INR" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+    <xs:element name="Total" type="xs:float" />
+
+    <xs:element name="Cost">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label" />
+                <xs:element ref="Total" />
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="currency" use="required" />
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:attribute name="country" default="USA">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="USA" />
+                <xs:enumeration value="Australia" />
+                <xs:enumeration value="UK" />
+                <xs:enumeration value="India" />
+                <xs:enumeration value="Worldwide" />
+
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+    <xs:element name="Validity_Date" type="xs:date" />
+
+    <xs:element name="Validity">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label" />
+                <xs:element ref="Validity_Date" />
+            </xs:sequence>
+            <xs:attribute ref="country" use="required" />
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:attribute name="reload" default="Non-Reloadable">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Non-Reloadable" />
+                <xs:enumeration value="Reloadable" />
+
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+
+    <xs:element name="Type_Name" type="xs:string" />
+    <xs:element name="Type">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label" />
+                <xs:element ref="Type_Name" />
+            </xs:sequence>
+            <xs:attribute ref="reload" use="optional" />
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:attribute name="sector">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Technology" />
+                <xs:enumeration value="Video Game" />
+                <xs:enumeration value="Ecommerce" />
+                <xs:enumeration value="Marketing" />
+                <xs:enumeration value="Others" />
+
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+    <xs:element name="Company_Name" type="xs:string" />
+    <xs:element name="Company">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="label" />
+                <xs:element ref="Company_Name" />
+            </xs:sequence>
+            <xs:attribute ref="sector"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Product_Name" type="xs:string" />
+
+
+    <xs:attribute name="type" default="Digital">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Physical" />
+                <xs:enumeration value="Digital" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+
+    <xs:element name="GiftCard_Details">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="Product_Name" />
+                <xs:element ref="Company" />
+                <xs:element ref="Type" />
+                <xs:element ref="Validity" />
+                <xs:element ref="Cost" />
+                <xs:element ref="Card" />
+                <xs:element ref="Number_Of_Users" />
+                <xs:element ref="Redeem_Group"/>
+                <xs:element ref="Discount_Group" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="Cashback_Group" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="Personalized_Group" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="Delivery_Group" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="Return_Group" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="Guide" />
+                <xs:element ref="Terms_Condition" />
+            </xs:all>
+            <xs:attribute ref="type" use="required" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Logo" type="xs:string" />
+
+    <xs:attribute name="id" type="xs:ID"/>
+
+    <xs:element name="GiftCard">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Logo" />
+                <xs:element ref="GiftCard_Details" maxOccurs="unbounded" minOccurs="1"/>
+            </xs:sequence>
+            <xs:attribute ref="id" use="required" />
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="GiftCards_G1">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="GiftCard" maxOccurs="unbounded" minOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GiftCards_G2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="GiftCard" maxOccurs="unbounded" minOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="GiftCards">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="GiftCards_G1" />
+                <xs:element ref="GiftCards_G2" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="Website_Logo" type="xs:string" />
+    <xs:element name="Website" type="xs:string" />
+
+
+    <xs:element name="Website_Group">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Website_Logo" />
+                <xs:element ref="Website" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="Address_Logo" type="xs:string" />
+
+    <xs:attribute name="street" type="xs:string" fixed="Oxford Street"/>
+
+    <xs:element name="Address">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute ref="street" use="required"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+
+    </xs:element>
+
+    <xs:element name="Address_Group">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Address_Logo" />
+                <xs:element ref="Address" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Email_Logo" />
+
+    <xs:element name="Email">
+        <xs:simpleType>
+            <xs:restriction base="xs:token">
+                <xs:maxLength value="254"/>
+                <xs:pattern value="[_\-a-zA-Z0-9\.\+]+@[a-zA-Z0-9](\.?[\-a-zA-Z0-9]*[a-zA-Z0-9])*"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Email_Group">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Email_Logo" />
+                <xs:element ref="Email" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Phone_Logo"/>
+
+    <xs:attribute name="phoneType"/>
+    <xs:element name="Phone_Number">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:int">
+              <xs:attribute ref="phoneType" use="optional"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+
+    <xs:element name="Phone_Group">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Phone_Logo" />
+                <xs:element ref="Phone_Number" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Store_Logo" />
+    <xs:element name="Name" type="xs:string" />
+
+    <xs:element name="Store_Details">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Store_Logo" />
+                <xs:element ref="Name" />
+                <xs:element ref="Phone_Group" />
+                <xs:element ref="Email_Group" />
+                <xs:element ref="Address_Group" />
+                <xs:element ref="Website_Group" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="AboutImg" />
+
+    <xs:attribute name="founder" type="xs:string" fixed="Jack Donalds" />
+    <xs:attribute name="founded" type="xs:date" fixed="2021-09-24"/>
+
+    <xs:element name="Store">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Store_Details" />
+                <xs:element ref="AboutImg" />
+            </xs:sequence>
+            <xs:attribute ref="founder" use="required"/>
+            <xs:attribute ref="founded" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:attribute name="slogan" type="xs:string" fixed="Gifts for all" />
+
+    <xs:element name="GaloreGifts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Home" />
+                <xs:element ref="GiftCards" />
+                <xs:element ref="Store" />
+            </xs:sequence>
+            <xs:attribute ref="slogan" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+
+</xs:schema>

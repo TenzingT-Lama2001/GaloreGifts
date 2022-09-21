@@ -1,0 +1,498 @@
+GaloreGifts{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+
+}
+
+Home{
+    display: block;
+    width:100%;
+    height:100vh;
+    
+
+}
+
+Nav{
+    width:100%;
+    height:15%;
+    display: flex;
+    background-color: #684AA2;
+    color:white;
+
+}
+
+Body{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+
+}
+
+Description{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+    margin-left: 200px;
+    margin-top: 150px;
+    color:#38826C;
+    letter-spacing: 1.5px;
+
+}
+Title{
+    font-size: 30px;
+}
+
+Sub_Title{
+    font-size: 40px;
+    margin-top:30px;
+
+}
+
+Info{
+
+    font-size:25px;
+    margin-top:25px;
+}
+
+
+
+Photo{
+    width:50%;
+    margin-left:200px;
+    margin-top:130px;
+    background-image: url(./assets/heropic.png);
+    background-repeat: no-repeat;
+    height:700px;
+}
+
+
+
+
+
+Galore_Logo {
+    display: block;
+    width: 22%;
+    background-image: url(./assets/logo.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    height: 100px;
+    margin-left: 220px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+Nav_Menu {
+    width: 41%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+Shop{
+    margin:0 60px;
+    cursor: pointer;
+}
+Shop:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #03BAF4,
+                0 0 25px #03BAF4,
+                0 0 50px #03BAF4,
+                0 0 100px #03BAF4;
+  }
+
+
+Pricing{
+    margin:0 60px;
+    cursor: pointer;
+}
+Pricing:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #03BAF4,
+                0 0 25px #03BAF4,
+                0 0 50px #03BAF4,
+                0 0 100px #03BAF4;
+  }
+    
+Blog{
+    margin:0 60px;
+    cursor: pointer;
+
+}
+Blog:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #03BAF4,
+                0 0 25px #03BAF4,
+                0 0 50px #03BAF4,
+                0 0 100px #03BAF4;
+  }
+Contact{
+    margin:0 60px;
+    cursor: pointer;
+    
+  
+
+}
+
+Contact:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #03BAF4,
+                0 0 25px #03BAF4,
+                0 0 50px #03BAF4,
+                0 0 100px #03BAF4;
+  }
+
+
+
+ShopBtn {
+    margin-right: 100px;
+    width: 150px;
+    height: 40px;
+    background-color: #4AA288;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 35px;
+    margin-top: 62px;
+    cursor: pointer;
+}  
+
+ShopBtn:hover {
+	/* button goes up by 3 px */
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for active state for button */
+ShopBtn:active {
+	/* button goes down by 1px  creating a pressed effect*/
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+CallToActionBtn{
+    background-color: #38826C;
+    padding:20px;
+    margin-top:60px;
+    width: 300px;
+    height: 30px;
+    color:#fff;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+CallToActionBtn:hover {
+	/* button goes up by 3 px */
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for active state for button */
+CallToActionBtn:active {
+	/* button goes down by 1px  creating a pressed effect*/
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+GiftCards{
+    display: flex;
+    flex-direction: column;
+    
+
+  
+    
+    
+
+}
+
+GiftCards_G1{
+
+    height:700px;
+    display: flex;
+    flex-direction: row;
+    
+    /*border:2px solid black;*/
+    background-color: #4a58a2;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    
+}
+GiftCards_G2{
+
+    height:700px;
+    display: flex;
+    flex-direction: row;
+    
+    
+    /*border:2px solid red;*/
+    
+    
+    
+    
+}
+
+
+
+GiftCard{
+    display: flex;
+
+    padding:25px;
+    width:400px;
+    margin-top:50px;
+    height:550px;
+    
+    flex-direction: column;
+    -webkit-box-shadow: 1px 5px 22px -2px rgba(66,66,66,0.9); 
+    box-shadow: 1px 5px 22px -2px rgba(66,66,66,0.9);
+    background-color: #fff;
+    align-items:center;
+    border-radius: 10px;
+
+}
+
+Logo{
+    width:50%;
+    margin-top:10px;
+    margin-left:50px;
+    height:180px;
+    
+}
+
+#a1{
+    margin-left: 200px;
+    margin-right:20px;
+}
+
+#s1{
+    margin-left: 60px;
+    margin-right: 20px;
+}
+#x1{
+    margin-left:60px;
+
+}
+
+#play1{
+    margin-left: 200px;
+    margin-right:20px;
+}
+#ps1{
+    margin-left: 60px;
+    margin-right: 20px;
+}
+#i1{
+    margin-left:60px;
+
+}
+#a1 Logo{
+
+    background-image: url(./assets/amazon.png);
+    background-repeat: no-repeat;
+    /* border:3px solid red; */
+    
+
+}
+#s1 Logo{
+    background-image: url(./assets/steam.png);
+    background-repeat: no-repeat;
+
+}
+
+#x1 Logo{
+    background-image: url(./assets/xbox.png);
+    background-repeat: no-repeat;
+
+}
+
+#play1 Logo{
+    background-image: url(./assets/playstore.png);
+    background-repeat: no-repeat;
+
+}
+#ps1 Logo{
+    background-image: url(./assets/playstation.png);
+    background-repeat: no-repeat;
+
+}
+#i1 Logo{
+    background-image: url(./assets/itunes.png);
+    background-repeat: no-repeat;
+
+}
+
+
+GiftCard_Details{
+    display: flex;
+    flex-direction: column;
+    color:#303030;
+    padding: 25px 40px;
+    font-size: 18px;
+    width:100%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+ 
+
+
+
+}
+
+Product_Name{
+    font-size: 25px;
+    display: inline-block;
+    margin-top:-10px;
+    text-align: center;
+    
+}
+Company{
+    margin-top:20px;
+}
+
+Terms_Condition{
+    margin-top: 10px;
+}
+
+
+Store{
+    display: flex;
+    flex-direction: row;
+   
+    height:600px;
+    margin-top:80px;
+    color:black;
+    background-color: #EBEBEB;
+    
+    /* background-color: #9FC8FF; */
+    
+}
+
+Store_Logo{
+    width:150px;
+    background-image: url(./assets/aboutlogo.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 50px;
+    
+
+}
+Store_Details{
+    display: flex;
+    flex:50%;
+    flex-direction: column;
+    font-size:25px;
+    padding:20px;
+    margin-left: 80px;
+    color:#684AA2;
+
+}
+
+AboutImg{
+    flex:50%;
+
+    background-image: url(./assets/a.png);
+    background-repeat: no-repeat;
+    margin:50px 0px;
+    margin-left:50px;
+
+}
+
+Name{
+    
+    margin-left: 80px;
+    margin-top:40px;
+    
+}
+
+Phone_Group{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom:5px;
+
+}
+Phone_Number{
+
+    margin-left: 40px;
+
+}
+
+Phone_Logo{
+    display: inline-block;
+    width:80px;
+    height:50px;
+    margin-left:80px;
+    background-image: url(./assets/phone-call.png);
+    background-repeat: no-repeat;
+    margin-top:-10px;
+}
+
+
+Address_Group{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:5px;
+}
+
+Address{
+    margin-left: 40px;
+}
+Address_Logo{
+    display: inline-block;
+    width:80px;
+    height:50px;
+    margin-left:80px;
+    background-image: url(./assets/address.png);
+    background-repeat: no-repeat;
+}
+
+
+Email_Group{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:5px;
+
+}
+Email_Logo{
+    display: inline-block;
+    width:80px;
+    height:50px;
+    margin-left:80px;
+    background-image: url(./assets/email.png);
+    background-repeat: no-repeat;
+}
+Email{
+    margin-left: 40px;
+}
+Website{
+    margin-left: 40px;
+}
+Website_Group{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:5px;
+
+}
+Website_Logo{
+    display: inline-block;
+    width:80px;
+    height:50px;
+    margin-left:80px;
+    background-image: url(./assets/website.png);
+    background-repeat: no-repeat;
+}
+
